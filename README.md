@@ -38,8 +38,9 @@ The Interactive Medical Symptom Checker for accurate health diagonsis and multip
    cd Symptomate
 2. Install the dependencies:
    pip install -r requirements.txt
-   if this not worked try
-   ()
+   if the above command doesnot work,try installing modules manually
+   pip install flask scikit-learn pandas numpy joblib
+
 3. Run the app
    python app.py
 4. Open the browser 
