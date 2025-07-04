@@ -44,7 +44,7 @@ def symptom_checker():
         return redirect(url_for('login_page'))
     return render_template('index1.html')
 
-# Predict Disease
+# Predict Disease (POST)
 @app.route('/predict-disease', methods=['POST'])
 def predict_disease():
     if 'user' not in session:
@@ -54,18 +54,32 @@ def predict_disease():
         data = request.get_json()
         symptoms = data.get("symptoms", [])
 
-        # Convert to input vector
-        input_vector = preprocess_symptoms(symptoms, symptom_columns)
+        # Validate symptom input
+        if not symptoms:
+            return jsonify({"error": "No symptoms provided"}), 400
+
+        # Clean and validate against known symptom columns
+        cleaned_symptoms = [s.strip().lower() for s in symptoms if isinstance(s, str)]
+        valid_symptoms = [s for s in cleaned_symptoms if s in symptom_columns]
+
+        if not valid_symptoms:
+            return jsonify({
+                "error": "No valid symptoms provided.",
+                "message": f"Please enter at least one valid symptom like: {', '.join(symptom_columns[:10])}..."
+            }), 400
+
+        # Create input vector
+        input_vector = preprocess_symptoms(valid_symptoms, symptom_columns)
         input_df = pd.DataFrame([input_vector], columns=symptom_columns)
         input_scaled = scaler.transform(input_df)
 
-        # Predict top diseases
+        # Predict top 2 diseases
         probabilities = model.predict_proba(input_scaled)[0]
         top_indices = np.argsort(probabilities)[-2:][::-1]
         top_diseases = model.classes_[top_indices]
         top_probs = probabilities[top_indices]
 
-        # Prepare disease info
+        # Gather disease info
         predicted_diseases = []
         medication_list = []
         advice_list = []
@@ -97,7 +111,7 @@ def predict_disease():
         print("❌ Error in /predict-disease:", e)
         return jsonify({"error": "Internal server error"}), 500
 
-# Logout
+# Logout Route
 @app.route('/logout')
 def logout():
     session.pop('user', None)
