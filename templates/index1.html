@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Medical Symptom Checker</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <style>
+    /* Spinner */
+    .spinner {
+      display: none;
+      margin: 20px auto;
+      width: 40px;
+      height: 40px;
+      border: 4px solid #ccc;
+      border-top-color: #007bff;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* Dark mode */
+    .dark-mode {
+      background-color: #111;
+      color: #eee;
+    }
+
+    .dark-mode .container {
+      background: #1e1e1e;
+      box-shadow: 0 8px 24px rgba(255, 255, 255, 0.1);
+    }
+
+    .dark-mode input,
+    .dark-mode select {
+      background: #333;
+      color: white;
+      border: 1px solid #777;
+    }
+
+    .dark-mode .result-box {
+      background: #222;
+    }
+
+    .dark-mode .secondary-btn {
+      background: #444;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>🩺 SYMPTOMATE</h1>
+    <p class="subtitle">Your Smart Virtual Health Guide</p>
+  </header>
+
+  <!-- Dark mode toggle -->
+  <div style="text-align: right;">
+    <button onclick="toggleDarkMode()" class="secondary-btn">🌓 Toggle Dark Mode</button>
+  </div>
+
+  <form id="symptom-form">
+    <label for="symptoms">Enter Symptoms (comma-separated):</label>
+    <input type="text" id="symptoms" name="symptoms" placeholder="e.g., Fever, Cough, Fatigue" required>
+    <button type="submit">Predict Disease</button>
+  </form>
+
+  <div class="spinner" id="spinner"></div>
+
+  <div id="result" class="result-box"></div>
+
+  <div class="action-buttons">
+    <a href="https://www.apollo247.com/doctors/quick-book-listing?consultMode=ONLINE" target="_blank">
+      <button class="secondary-btn">Consult Now</button>
+    </a>
+    <a href="https://www.apollo247.com/lab-tests" target="_blank">
+      <button class="secondary-btn">Book Lab Test</button>
+    </a>
+  </div>
+
+  <footer>
+    <p class="disclaimer">⚠️ This AI diagnosis is for informational purposes only. Always consult a qualified doctor.</p>
+  </footer>
+</div>
+
+<script>
+function toggleDarkMode() {
+  document.body.classList.toggle('dark-mode');
+}
+
+document.getElementById('symptom-form').addEventListener('submit', function(event) {
+  event.preventDefault();
+  const symptoms = document.getElementById('symptoms').value.split(',').map(s => s.trim());
+
+  const spinner = document.getElementById('spinner');
+  const resultBox = document.getElementById('result');
+  resultBox.innerHTML = '';
+  spinner.style.display = 'block';
+
+  fetch('/predict-disease', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ symptoms })
+  })
+  .then(response => response.json())
+  .then(data => {
+    spinner.style.display = 'none';
+
+    if (data.diseases && data.diseases.length > 0) {
+      let html = `<h3>📝 Predicted Diseases:</h3><div class="disease-list">`;
+      data.diseases.forEach((disease, index) => {
+        const advice = data.advice[index];
+        const medication = data.medications[index];
+        const nutrition = data.nutrition[index];
+        const confidence = (data.probabilities[index]).toFixed(2);
+        html += `
+          <div class="disease-item">
+            <strong>${disease}</strong><br/>
+            <span class="advice">📌 Advice: ${advice}</span><br/>
+            <span class="medication">💊 Medication: ${medication}</span><br/>
+            <span class="nutrition">🥦 Nutrition: ${nutrition}</span><br/>
+            <span class="confidence">Confidence: ${confidence}%</span>
+          </div>
+        `;
+      });
+      html += `</div>`;
+      resultBox.innerHTML = html;
+    } else {
+      resultBox.innerHTML = `<p class="error">❌ Could not predict disease. Please enter valid symptoms.</p>`;
+    }
+  })
+  .catch(error => {
+    spinner.style.display = 'none';
+    console.error('Error:', error);
+    alert("⚠️ Could not connect to prediction server. Make sure the backend is running.");
+    resultBox.innerHTML = `<p class="error">⚠️ An error occurred while fetching data. Please try again.</p>`;
+  });
+});
+</script>
+</body>
+</html>

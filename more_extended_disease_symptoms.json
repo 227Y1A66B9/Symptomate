@@ -1,0 +1,626 @@
+[
+    {
+        "disease": "Flu",
+        "medication": "Paracetamol, rest, fluids",
+        "advice": "you should go for Flu Test, and consult a General Practitioner. Preventive measures include rest and drinking fluids.",
+        "nutrition": "Vitamin C, Zinc, Warm fluids"
+    },
+    {
+        "disease": "Migraine",
+        "medication": "Ibuprofen, sleep, hydration",
+        "advice": "you should consider a CT Scan or Blood Test, and consult a Neurologist. Preventive measures include regular sleep and stress management.",
+        "nutrition": "Magnesium, Omega-3s, Hydrating foods"
+    },
+    {
+        "disease": "Cold",
+        "medication": "Paracetamol, rest, fluids",
+        "advice": "you should have a Rapid Influenza Diagnostic Test, and consult a Primary Care Physician. Stay hydrated and rest.",
+        "nutrition": "Vitamin C, Zinc, Warm fluids"
+    },
+    {
+        "disease": "Pneumonia",
+        "medication": "Antibiotics (prescribed), acetaminophen",
+        "advice": "you should get a Chest X-ray and Blood Test, and consult a Pulmonologist. Vaccination and avoiding smoke are recommended.",
+        "nutrition": "Protein, Vitamin A, Warm soups"
+    },
+    {
+        "disease": "Influenza",
+        "medication": "Paracetamol, rest, fluids",
+        "advice": "consider a Flu Test and Chest X-ray, and see a Family Doctor. Get vaccinated and ensure adequate rest.",
+        "nutrition": "Vitamin C, Zinc, Warm fluids"
+    },
+    {
+        "disease": "Bronchitis",
+        "medication": "Cough syrup, steam inhalation",
+        "advice": "you should have a Chest X-ray and Sputum Test, and consult a Pulmonologist. Quit smoking and use a humidifier.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Dengue",
+        "medication": "Paracetamol, oral rehydration salts",
+        "advice": "get a Dengue NS1 Antigen Test and see an Infectious Disease Specialist. Avoid mosquito bites.",
+        "nutrition": "Papaya leaf extract, Fluids, Iron-rich foods"
+    },
+    {
+        "disease": "COVID-19",
+        "medication": "Paracetamol, rest, hydration",
+        "advice": "you should get a PCR Test and Antigen Test, and consult an Infectious Disease Specialist. Vaccination and wearing masks are recommended.",
+        "nutrition": "Vitamin D, Zinc, Fluids"
+    },
+    {
+        "disease": "Asthma",
+        "medication": "Salbutamol inhaler",
+        "advice": "you should consider a Lung Function Test, and consult a Pulmonologist. Avoid allergens and use inhalers.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Stomach Flu",
+        "medication": "Paracetamol, rest, fluids",
+        "advice": "you should get a Stool Test, and consult a Gastroenterologist. Stay hydrated and avoid dairy.",
+        "nutrition": "Vitamin C, Zinc, Warm fluids"
+    },
+    {
+        "disease": "Chickenpox",
+        "medication": "Calamine lotion, antihistamines",
+        "advice": "you should have a PCR Test or Blood Test, and see a Pediatrician. Vaccination is recommended.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Food Poisoning",
+        "medication": "ORS, activated charcoal",
+        "advice": "consider a Stool Culture, and consult a Gastroenterologist. Stay hydrated and rest.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Malaria",
+        "medication": "Antimalarial tablets (chloroquine)",
+        "advice": "you should have a Blood Test and see an Infectious Disease Specialist. Use mosquito nets.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Heart Attack",
+        "medication": "Aspirin (emergency), nitroglycerin",
+        "advice": "you should get an ECG and Blood Test, and consult a Cardiologist. Regular checkups and a healthy diet are important.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Tuberculosis",
+        "medication": "Anti-TB medication (prescribed)",
+        "advice": "you should have a Chest X-ray and Sputum Test, and see a Pulmonologist. Vaccination and avoiding crowded places are recommended.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Whooping Cough",
+        "medication": "Cough suppressants",
+        "advice": "you should get a PCR Test, and consult a Pediatrician. Vaccination is important.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Lung Cancer",
+        "medication": "Prescribed chemotherapy or radiation",
+        "advice": "consider a Chest X-ray and CT Scan, and see an Oncologist. Regular checkups and avoiding smoking are essential.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Typhoid Fever",
+        "medication": "Ciprofloxacin (prescribed), ORS",
+        "advice": "you should have a Blood Culture and consult an Infectious Disease Specialist. Vaccination and hygiene are crucial.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Sinus Infection",
+        "medication": "Decongestants, nasal spray",
+        "advice": "consider a Nasal Endoscopy, and see an ENT Specialist. Steam inhalation and staying hydrated are beneficial.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Cholera",
+        "medication": "ORS, zinc tablets",
+        "advice": "you should get a Stool Culture and Blood Test, and consult an Infectious Disease Specialist. Vaccination and hygiene are essential.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Meningitis",
+        "medication": "Antibiotics (prescribed)",
+        "advice": "you should have a Lumbar Puncture, and see a Neurologist. Vaccination and good hygiene are important.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Measles",
+        "medication": "Vitamin A, fever reducers",
+        "advice": "you should have a Blood Test, and consult a Pediatrician. Vaccination and good hygiene are crucial.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Lupus",
+        "medication": "NSAIDs, corticosteroids",
+        "advice": "consider Blood Tests and Biopsy, and see a Rheumatologist. Regular checkups and medication are important.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Hepatitis A",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should get a Blood Test, and consult a Gastroenterologist. Vaccination and good hygiene are crucial.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Hepatitis B",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Test, and see a Gastroenterologist. Vaccination and avoiding unprotected sex are vital.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Hepatitis C",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should consider a Blood Test, and consult a Gastroenterologist. Vaccination and avoiding sharing needles are important.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Scarlet Fever",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Throat Culture, and see a Pediatrician. Vaccination and good hygiene are essential.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Typhus",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Test, and consult an Infectious Disease Specialist. Good hygiene and regular checkups are recommended.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Yellow Fever",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Blood Test, and see an Infectious Disease Specialist. Vaccination and avoiding mosquito bites are crucial.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Zika Virus",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Test, and consult an Infectious Disease Specialist. Avoid mosquito bites and maintain good hygiene.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Mumps",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Blood Test, and see a Pediatrician. Vaccination is essential.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Rubella",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Test, and consult a Pediatrician. Vaccination is important.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Ebola",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should consider a Blood Test, and consult an Infectious Disease Specialist. Avoid contact and wear protective gear.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Rabies",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Rabies Vaccination, and consult a Veterinarian. Vaccination and avoiding animal bites are crucial.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Polio",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should get a Blood Test, and consult a Pediatrician. Vaccination and good hygiene are vital.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Leprosy",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Skin Biopsy and Blood Test, and see a Dermatologist. Avoid contact and maintain good hygiene.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Anthrax",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Test and Chest X-ray, and consult an Infectious Disease Specialist. Avoid contact and maintain hygiene.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Smallpox",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should get Vaccination, and consult a Pediatrician. Vaccination and avoiding contact are crucial.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Chikungunya",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Test, and consult an Infectious Disease Specialist. Avoid mosquito bites and maintain good hygiene.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Plague",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should get a Blood Test and PCR Test, and consult an Infectious Disease Specialist. Avoid contact and maintain hygiene.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Tetanus",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Wound Culture and Blood Test, and consult an Emergency Room. Vaccination and good hygiene are important.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Diphtheria",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should get a Throat Culture, and see a Pediatrician. Vaccination and good hygiene are essential.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Hantavirus",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should get a Blood Test, and consult an Infectious Disease Specialist. Avoid contact with rodents.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "West Nile Virus",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Test, and consult an Infectious Disease Specialist. Avoid mosquito bites and maintain hygiene.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Lyme Disease",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should get a Blood Test, and consult an Infectious Disease Specialist. Avoid ticks and wear protective clothing.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Legionnaires' Disease",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Chest X-ray and Sputum Test, and consult a Pulmonologist. Avoid water sources with bacteria.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Shingles",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Test, and see a Dermatologist. Vaccination and pain management are recommended.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Norovirus",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should consider a Stool Test, and consult a Gastroenterologist. Stay hydrated and maintain good hygiene.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Cryptosporidiosis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Stool Test, and consult a Gastroenterologist. Avoid contaminated water.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Giardiasis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should get a Stool Test, and consult a Gastroenterologist. Avoid contaminated water.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Amoebiasis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should consider a Stool Test, and see a Gastroenterologist. Avoid contaminated water.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Celiac Disease",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Test, and consult a Gastroenterologist. Follow a gluten-free diet.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Crohn's Disease",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should get a Colonoscopy, and see a Gastroenterologist. Follow an anti-inflammatory diet.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Multiple Sclerosis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should consider an MRI Scan and Blood Test, and see a Neurologist. Medication and physical therapy are important.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Parkinson's Disease",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have an MRI Scan and Blood Test, and consult a Neurologist. Medication and physical therapy are essential.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Alzheimer's Disease",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider Cognitive Tests, and consult a Neurologist. Mental exercises and a healthy diet are recommended.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Hemophilia",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have Blood Tests, and see a Hematologist. Medication and avoiding injuries are crucial.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Sickle Cell Anemia",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider Blood Tests, and consult a Hematologist. Hydration and regular checkups are important.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Allergic Rhinitis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider an Allergy Test  and consult an Allergist. Avoid allergens and use antihistamines.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Conjunctivitis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider an Eye Exam  and see an Ophthalmologist. Maintain hygiene and avoid touching eyes.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Gout",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Test for Uric Acid  and consult a Rheumatologist. Avoid purine-rich foods and stay hydrated.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Osteoporosis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Bone Density Test  and see an Endocrinologist. Ensure calcium intake and exercise regularly.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Rheumatoid Arthritis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Test and X-ray  and consult a Rheumatologist. Medication and physical therapy are important.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Psoriasis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Skin Biopsy  and see a Dermatologist. Use moisturizers and avoid stress.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Eczema",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Skin Test  and consult a Dermatologist. Use hypoallergenic products and avoid irritants.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Anaphylaxis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider an Allergy Test  and see an Allergist. Carry an epinephrine auto-injector and avoid allergens.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Mononucleosis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Test  and consult a Pediatrician. Rest and stay hydrated.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Strep Throat",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Throat Culture  and see a Primary Care Physician. Maintain hygiene and complete antibiotics.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Tonsillitis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Throat Culture  and consult an ENT Specialist. Maintain hygiene and gargle with salt water.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Gastroenteritis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Stool Test  and consult a Gastroenterologist. Stay hydrated and maintain hygiene.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Peptic Ulcer Disease",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have an Endoscopy  and consult a Gastroenterologist. Avoid spicy foods and manage stress.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Appendicitis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a CT Scan  and consult a Surgeon. Seek immediate medical attention.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Diverticulitis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a CT Scan  and consult a Gastroenterologist. Follow a high-fiber diet.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Kidney Stones",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a CT Scan  and consult a Urologist. Stay hydrated and reduce salt intake.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Urinary Tract Infection",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Urine Test  and consult a Urologist. Stay hydrated and maintain hygiene.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Chronic Kidney Disease",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Blood Test and Ultrasound  and consult a Nephrologist. Monitor blood pressure and follow a low-salt diet.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Type 1 Diabetes",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Glucose Test  and consult an Endocrinologist. Monitor blood sugar and follow a balanced diet.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Type 2 Diabetes",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Blood Glucose Test  and consult an Endocrinologist. Maintain a healthy weight and exercise regularly.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Hypothyroidism",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Thyroid Function Test  and consult an Endocrinologist. Take prescribed medication and monitor symptoms.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Hyperthyroidism",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Thyroid Function Test  and consult an Endocrinologist. Avoid iodine-rich foods and manage stress.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Cushing's Syndrome",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Cortisol Test  and consult an Endocrinologist. Monitor symptoms and follow medical advice.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Addison's Disease",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Cortisol Test  and consult an Endocrinologist. Take prescribed medication and manage stress.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Breast Cancer",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Mammogram  and consult an Oncologist. Regular screenings and a healthy lifestyle are recommended.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Prostate Cancer",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a PSA Test  and consult an Oncologist. Regular screenings and a healthy diet are important.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Colorectal Cancer",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Colonoscopy  and consult an Oncologist. Regular screenings and a high-fiber diet are recommended.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Skin Cancer (Melanoma)",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Skin Biopsy  and see a Dermatologist. Use sunscreen and avoid excessive sun exposure.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Leukemia",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Test and Bone Marrow Biopsy  and consult an Oncologist. Regular checkups and a healthy lifestyle are important.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Lymphoma",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Lymph Node Biopsy  and consult an Oncologist. Regular checkups and avoiding infections are recommended.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Fibromyalgia",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Blood Test  and consult a Rheumatologist. Manage stress and maintain a healthy lifestyle.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Chronic Fatigue Syndrome",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Blood Test  and consult a General Practitioner. Ensure adequate rest and manage stress.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Endometriosis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a Pelvic Ultrasound  and consult a Gynecologist. Manage pain and consider hormonal therapy.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Polycystic Ovary Syndrome",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Pelvic Ultrasound and Blood Test  and consult a Gynecologist. Maintain a healthy weight and diet.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Glaucoma",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have an Eye Exam  and consult an Ophthalmologist. Regular screenings and medication are important.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Cataracts",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider an Eye Exam  and consult an Ophthalmologist. Protect eyes from UV light and regular screenings.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Stroke",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a CT Scan and MRI  and consult a Neurologist. Manage blood pressure and maintain a healthy lifestyle.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Epilepsy",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider an EEG and MRI  and consult a Neurologist. Take prescribed medication and avoid triggers.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Osteoarthritis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have an X-ray  and consult a Rheumatologist. Maintain a healthy weight and exercise regularly.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Pancreatitis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have a CT Scan and Blood Test  and consult a Gastroenterologist. Avoid alcohol and follow a low-fat diet.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Cirrhosis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider a Liver Function Test  and consult a Gastroenterologist. Avoid alcohol and maintain a healthy diet.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Atrial Fibrillation",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have an ECG  and consult a Cardiologist. Manage stress and avoid caffeine.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Deep Vein Thrombosis",
+        "medication": "Consult pharmacist or physician",
+        "advice": "consider an Ultrasound  and consult a Vascular Specialist. Stay active and avoid prolonged immobility.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Gallstones",
+        "medication": "Consult pharmacist or physician",
+        "advice": "you should have an Ultrasound or CT Scan  and consult a Gastroenterologist. Maintain a healthy diet and avoid high-fat foods.",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Meniere's disease",
+        "medication": "Consult pharmacist or physician",
+        "advice": "avoiding triggers like stress, loud noises, and weather changes, following a low-sodium diet, limiting caffeine and alcohol, and considering medications as prescribed by a doctor",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    },
+    {
+        "disease": "Dysphagia",
+        "medication": "Consult pharmacist or physician",
+        "advice": "maintaining an upright posture during meals, taking small bites and chewing thoroughly, avoiding distractions, and potentially using thickened liquids",
+        "nutrition": "Balanced diet, Hydration, Multivitamins"
+    }
+]

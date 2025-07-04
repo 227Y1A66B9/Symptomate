@@ -1,0 +1,172 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Header */
+header h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  text-align: left;
+  color: #333;
+}
+
+input[type="text"] {
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* Result Box */
+.result-box {
+  margin-top: 30px;
+  background: #f9f9fb;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Disease List */
+.disease-list {
+  margin-top: 10px;
+}
+
+/* Scrollable List (optional for long results) */
+.disease-list-scroll {
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Disease Items */
+.disease-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-left: 4px solid #007bff;
+  background-color: #eef5ff;
+  border-radius: 6px;
+}
+
+.disease-item strong {
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.advice,
+.medication,
+.nutrition,
+.confidence {
+  display: block;
+  font-size: 0.95rem;
+  color: #444;
+  margin-top: 6px;
+}
+
+/* Confidence Highlight */
+.confidence {
+  color: #28a745;
+  font-weight: 500;
+}
+
+/* Action Buttons */
+.action-buttons {
+  margin-top: 30px;
+}
+
+.secondary-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.secondary-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+}
+
+.disclaimer {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
