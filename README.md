@@ -37,9 +37,9 @@ The Interactive Medical Symptom Checker for accurate health diagonsis and multip
    git clone https://github.com/227Y1A66B9/Symptomate.git
    cd Symptomate
 2. Install the dependencies:
-   pip install -r requirements.txt
+   "pip install -r requirements.txt"
    if the above command doesnot work,try installing modules manually
-   pip install flask scikit-learn pandas numpy joblib
+   "pip install flask scikit-learn pandas numpy joblib"
 
 3. Run the app
    python app.py
